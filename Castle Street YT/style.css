@@ -1,0 +1,112 @@
+/*
+Theme Name: Castle Street
+Author: Jack Delaney
+Author URI: http://www.jackdelaney.co/
+Description: Innovative, smart, user friendly and modern theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+/*reset - This means browsers can't boss my site about. */
+html, body, div, span, applet, object, iframe,blockquote, pre,a, abbr, acronym,
+ address,big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike,
+  strong, sub, sup, tt, var, b, u, i,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	vertical-align: baseline;
+}
+
+img { max-width: 100%; }
+body {
+ background: #ff9900;
+
+ background-image: url("orangeopacity75.png");
+}
+
+    @media only screen and (max-device-width: 480px) {
+    /* Turn off Flex and display items as Block elements to stack them */
+    .column-parent {  display: block;  margin: auto;}
+
+    /* Set Widths to 100% and set margin left to 0% to even these out */
+    .column-left {   overflow:auto;  float: left; left: 0%; width: 100%; margin-left: 0%;  }
+    .column-center {  overflow:auto; float: left; left: 0%; width: 100%; margin-left: 0%; }
+    .column-right {   overflow:auto; float: left; right: 0%; width: 100%;   }
+
+    /* This will fix squashed images */
+    .column-left img { width: 100%; height: auto;}
+    }
+
+/* Starting  */
+.column-parent {  display: flex;  margin: auto;}
+.column-left {   overflow:auto;  float: left; left: 0%; width: 25%; margin-left: 2%;  }
+.column-center {  overflow:auto; float: left; left: 25%; width: 40%; margin-left: 2%; }
+.column-right {   overflow:auto; float: left; right: 67%; width: 35%;   }
+
+
+.h2class{ margin:0px; text-decoration: none; color:black;!important}
+.post-meta li { list-style-type: none;}
+.post-meta-key{font-weight: bold;}
+
+
+
+
+/*  Display: inline-block;  */
+
+    /*main-navigation*/
+
+/*
+.main-navigation li ul li a {
+		background: #FF9900;
+		border-bottom: 1px solid #ededed;
+		display: block;
+		 color: red;
+		font-size: 11px;
+		font-size: 0.785714286rem;
+		line-height: 2.181818182;
+		padding: 8px 10px;
+		padding: 0.571428571rem 0.714285714rem;
+		width: 180px;
+		width: 12.85714286rem;
+		white-space: normal;
+.post { margin: 20px 0; border-bottom: 1px #efefef solid; padding: 20px 0; }
+.post:last-child { border-bottom: none;}
+
+.post-type {text-transform: capitalize;}
+
+.author .page-header { overflow: auto;}
+
+.page-header img {float: left; display: block; margin: 10px;}
+*/
+
+
+/* Alignment*/
+
+.alignleft {
+	float: left;
+}
+
+.alignright { 
+    float: right;
+
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
